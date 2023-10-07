@@ -24,10 +24,66 @@
                 <li><a href="log-in.html" target="_self">Log In</a></li>
             </ul>
         </nav>
-        <h1>Homepage</h1>
+        <h1>Questionnaire</h1>
     </header>
     <main>
+        <form>
+            <label for="username">Enter your Username</label>
+            <textarea id="username" name="username" rows="1" cols="10"></textarea>
 
+            <br>
+
+            <label for="state">State</label>
+            <textarea id="state" name="state" rows="1" cols="10"></textarea>
+
+            <br>
+
+            <label for="country">Country</label>
+            <textarea id="country" name="country" rows="1" cols="10"></textarea>
+
+            <br>
+
+            <label for="city">Enter City</label>
+            <textarea id="city" name="state" rows="1" cols="10"></textarea>
+
+            <br>
+
+            <label for="zip">Zip Code</label>
+            <textarea id="zip" name="zip" rows="1" cols="10"></textarea>
+
+            <br>
+
+            <h3>What are your Current Interests?</h3> <label for="interests"></label>
+            <label for="interests">Genre</label>
+            <select id="interests" name="interests">
+            <option value="crops">Crops</option>
+            <option value="animals">Farm animals</option>
+            <option value="building">Construction</option>
+            <option value="sustainable">Sustainability</option>
+        </select>
+            <br>
+
+            <label for="phone">Phone Number</label>
+            <textarea id="phone" name="phone" rows="1" cols="10"></textarea>
+
+            <br>
+
+            <label for="backup">Backup Number</label>
+            <textarea id="backup" name="backup" rows="1" cols="10"></textarea>
+
+            <br>
+
+            <h3>Would you like to receive Notifications</h3> <input type="checkbox" id="notification" value="yes">
+
+        <br>
+
+            <textarea id="comments" name="comments" rows="3" cols="25"></textarea>
+
+            <br>
+
+
+            <button>Reset</button> <button>Submit</button>
+        </form>
     </main>
     <footer>
         <p>&copy;HomesteadHub 
